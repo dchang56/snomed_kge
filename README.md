@@ -8,18 +8,16 @@ Make sure to have graphvite and pytorch installed, and replace the application.p
 - transitive closure resources from https://www.nlm.nih.gov/healthit/snomedct/us_edition.html
 - semantic group files from https://metamap.nlm.nih.gov/SemanticTypesAndGroups.shtml
 
-Preprocessing and dataset building:
+## Preprocessing and dataset building
 
--follow umls_preprocess.txt to get active_concepts.txt, active_relations.txt, and semantic_types.txt
-
--follow transitive_closure.ipynb to get transitive_closure_full.txt
-
--follow umls_utils.ipynb to further subset concepts and relations according to semantic types/groups, and create datasets for training/validation/testing.
+- follow umls_preprocess.txt to get active_concepts.txt, active_relations.txt, and semantic_types.txt
+- follow transitive_closure.ipynb to get transitive_closure_full.txt
+- follow umls_utils.ipynb to further subset concepts and relations according to semantic types/groups, and create datasets for training/validation/testing.
 
 
-Train, eval, and visualize:
+## Train, eval, and visualize
 
--graphvite_experiments.py: runs the training and evaluation
+- graphvite_experiments.py: runs the training and evaluation
 
 To train all 5 KGE models:
 
@@ -49,5 +47,7 @@ for X in TransE DistMult SimplE ComplEx RotatE; do
 done
 ```
 
+- entity_classification.py: runs entity classification (requires cui2vec and snomed2vec)
+- visualization.py: visualizes the trained embeddings
 
 
