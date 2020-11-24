@@ -20,9 +20,11 @@ Preprocessing and dataset building:
 
 
 Train, eval, and visualize:
+
 -graphvite_experiments.py: runs the training and evaluation
 
 To train all 5 KGE models:
+
 `
 for X in TransE DistMult SimplE ComplEx RotatE; do
   OUTPUT_DIR='output directory'
