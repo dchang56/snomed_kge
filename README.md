@@ -50,4 +50,6 @@ done
 - entity_classification.py: runs entity classification (requires cui2vec and snomed2vec)
 - visualization.py: visualizes the trained embeddings
 
+## Pretrained embeddings
 
+Here's the GDrive link to download pretrained embeddings for the 5 KGE models: https://drive.google.com/drive/folders/1HN-TfZT9S3qHBIZO4_CItn4OWbuKZtll?usp=sharing
