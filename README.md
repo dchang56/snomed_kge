@@ -25,7 +25,7 @@ Train, eval, and visualize:
 
 To train all 5 KGE models:
 
-`''
+'''bash
 for X in TransE DistMult SimplE ComplEx RotatE; do
   OUTPUT_DIR='output directory'
   DATA_DIR='data directory'
