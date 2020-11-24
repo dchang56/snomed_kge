@@ -2,13 +2,11 @@
 
 Make sure to have graphvite and pytorch installed, and replace the application.py file in the graphvite site-packages directory in your environment with the application.py file in this repo (made some modification to include different functionalities for training, evaluating, and visualization).
 
-Downloads:
+## Downloads
 
--MRCONSO.RRF, MRREL.RRF, and MRSTY.RRF from the UMLS
-
--transitive closure resources from https://www.nlm.nih.gov/healthit/snomedct/us_edition.html
-
--semantic group files from https://metamap.nlm.nih.gov/SemanticTypesAndGroups.shtml
+- MRCONSO.RRF, MRREL.RRF, and MRSTY.RRF from the UMLS
+- transitive closure resources from https://www.nlm.nih.gov/healthit/snomedct/us_edition.html
+- semantic group files from https://metamap.nlm.nih.gov/SemanticTypesAndGroups.shtml
 
 Preprocessing and dataset building:
 
