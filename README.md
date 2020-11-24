@@ -1,6 +1,6 @@
 # SNOMED-CT Knowledge Graph Embeddings
 
-This repository accompanies the following paper: https://www.aclweb.org/anthology/2020.bionlp-1.18.pdf
+This repository accompanies the paper Benchmark and Best Practices for Biomedical Knowledge Graph Embeddings: https://www.aclweb.org/anthology/2020.bionlp-1.18.pdf
 
 
 Make sure to have graphvite and pytorch installed, and replace the application.py file in the graphvite site-packages directory in your environment with the application.py file in this repo (made some modification to include different functionalities for training, evaluating, and visualization).
