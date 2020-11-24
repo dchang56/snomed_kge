@@ -1,4 +1,7 @@
-# snomed_kge
+# SNOMED-CT Knowledge Graph Embeddings
+
+This repository accompanies the following paper: https://www.aclweb.org/anthology/2020.bionlp-1.18.pdf
+
 
 Make sure to have graphvite and pytorch installed, and replace the application.py file in the graphvite site-packages directory in your environment with the application.py file in this repo (made some modification to include different functionalities for training, evaluating, and visualization).
 
@@ -53,3 +56,7 @@ done
 ## Pretrained embeddings
 
 Here's the GDrive link to download pretrained embeddings for the 5 KGE models: https://drive.google.com/drive/folders/1HN-TfZT9S3qHBIZO4_CItn4OWbuKZtll?usp=sharing
+
+## Comments
+
+When I was working on this project almost a year ago, I chose Graphvite as the package for kge training due to its advantages at the time. There has been a lot of progress in the field since then, and currently my personal favorite for training KGEs is dgl-ke: https://github.com/awslabs/dgl-ke
